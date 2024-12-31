@@ -1,0 +1,284 @@
+@media only screen and (max-width: 1160px) {
+    #line{
+        left: 40%;
+    }
+
+}
+
+@media only screen and (max-width: 980px) {
+    .photosslider{
+        margin-left: 25%;
+    }
+    div#photosshadow{
+        width: 90%;
+    }
+    #line{
+        display: none;
+    }
+    #PageLogoBContainer{
+        width: 100%;
+        text-align: center;
+        left: 0%;
+        justify-items: center;
+    }
+    div#imgbg{
+        min-width: 40%;
+        height: 338px;
+        backdrop-filter: blur(55px);
+        -webkit-backdrop-filter: blur(55px);
+        right: 21%;
+        box-sizing: border-box;
+        border: 1px solid #c3c3c380;
+    }
+    @keyframes imgbg{
+        0%{min-width: 40%;}
+        100%{min-width: 60%;}
+    }
+
+    div#PageLogoB{
+        margin-left: 45%;
+    }
+    #PageLogoBContainer h1{
+        scale: 0.9;
+        margin-right: 2%;
+    }
+    div#categoriesItems{
+        max-width: 80vw;
+    }
+    @keyframes divstats{
+        100%{height: 177px;}
+    }
+    #farticle2{
+        height: 1000px;
+    }
+    div#adsR{
+        margin-left: -7%;
+    }
+    div#jobsM{
+        margin-left: -55px;
+    }
+    div#optionsContainer{
+        flex-wrap: nowrap;
+        justify-content: unset;
+    }
+    div#optionsContainer2{
+        flex-wrap: nowrap;
+        justify-content: unset;
+    }
+    hr#hr2{
+        bottom: 34px;
+        position: relative;
+        left: unset;
+    }
+
+}
+@media only screen and (max-width: 980px) and (min-width: 520px){
+    div#Namad {
+        width: 163px;
+        margin-right: 35px;
+        height: 243px;
+        background-color: #2f2f2f30;
+        border-radius: 9px;
+        font-size: small;
+        display: flex
+    ;
+        justify-content: center;
+        align-items: center;
+        rotate: -2deg;
+        margin-top: 13.5px;
+        border: 2px dotted #585858;
+        box-sizing: border-box;
+        backdrop-filter: blur(1px);
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .NavTexts{
+        font-size: 15px;
+        padding-top: 2%;
+        display: none;
+    }
+    .photosslider{
+        margin-left: 8.5%;
+    }
+    @keyframes imgbg{
+        100%{min-width: 75%;}
+    }
+    div#imgbg{
+        right: 13%;
+    }
+    #PageLogoBContainer{
+        scale: 0.8;
+    }
+    div#photosshadow{
+        width: 100%;
+    }
+    div#stats{
+        gap: 25%;
+        flex-wrap: wrap;
+    }
+    #stats div{
+        font-size: 42px;
+    }
+    #stats span{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    #farticle2{
+        height: 2700px;
+    }
+    div#optionsContainer{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    div#optionsContainer2{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    @keyframes divstats{
+        100%{height: 800px;}
+    }
+    .categoriesContainer{
+        height: 120px;
+    }
+    .categoriesContainer2{
+        height: 120px;
+    }
+    .categoriesContainer img{
+        scale: 2.4;
+    }
+    img#csocialmediaimg{
+        scale: 5.5;
+    }
+    div#options{
+        gap: 25px;
+    }
+    div#cIR3bttnsContainer{
+        gap: 60px;
+        margin-left: -16px;
+        margin-top: 64px;
+    }
+    div#about {
+        display: flex
+    ;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        text-align: end;
+        color: #d5d5d5;
+        max-width: 90vw;
+        gap: 7px;
+        font-size: larger;
+        position: absolute;
+        height: 560px;
+        justify-content: center;
+    }
+    #footer{
+        min-height: 1250px;
+    }
+    div#link-section {
+        display: flex
+    ;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+    p#footerp {
+        position: absolute;
+        width: 90vw;
+        justify-content: center;
+        bottom: -583px;
+        display: flex
+    ;
+        flex-direction: column;
+        gap: 6px;
+        font-size: small;
+        align-items: center;
+    }
+    hr#hr2{
+        bottom: -475px;
+        left: unset;
+    }
+    div#Namad{
+        margin-top: 196px;
+    }
+    #farticle3{
+        height: 830px;
+    }
+    #PageLogo{
+        opacity: unset;
+        visibility: visible;
+    }
+    div#categoriesItems{
+        align-items: center;
+    }
+    #categoriesItemsRow1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #categoriesItemsRow2{
+        font-size: smaller;
+        width: 100%;
+    }
+    div#csocialmedia{
+        width: 185px;
+    }
+    span#footerlogos{
+        width: 65%;
+        justify-content: center;
+    }
+    span#BBar{
+        display: inherit;
+    }
+    #DownloadbtnMobile{
+        display: grid;
+    }
+
+}
+
+@media only screen and (min-width: 980px) {
+    div#optionsContainer{
+        flex-wrap: nowrap;
+        justify-content: unset;
+    }
+    div#optionsContainer2{
+        flex-wrap: nowrap;
+        justify-content: unset;
+    }
+}
+
+
+
+@media only screen and (max-height: 680px) {
+    #farticle{
+        height: 85vh;
+    }
+}
+@media only screen and (max-width: 390px) {
+    div#NamadContainer{
+        left: 0%;
+    }
+}
+@media only screen and (max-width: 1124px) and (min-width: 952px) {
+    div#NamadContainer{
+        left: 0%;
+    }
+}
+@media only screen and (max-height: 500px) and (min-height: 300px) {
+    #farticle{
+        height: 147vh;
+    }
+    div#photosshadow{
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 348px) {
+    div#imgbg{
+        height: 52%;
+    }
+}
+@media only screen and (max-width: 410px) {
+    #PageLogoBContainer h4{
+        font-size: large;
+    }
+}
