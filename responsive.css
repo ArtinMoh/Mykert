@@ -265,7 +265,7 @@
 }
 @media only screen and (max-height: 500px) and (min-height: 300px) {
     #farticle{
-        height: 147vh;
+        height: 174vh;
     }
     div#photosshadow{
         visibility: hidden;
