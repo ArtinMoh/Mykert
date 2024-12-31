@@ -99,7 +99,7 @@
         display: none;
     }
     .photosslider{
-        margin-left: 8.5%;
+        margin-left: 5.5%;
     }
     @keyframes imgbg{
         100%{min-width: 75%;}
